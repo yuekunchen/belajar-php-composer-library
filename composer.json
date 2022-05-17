@@ -1,0 +1,19 @@
+{
+    "name": "yuekunchen/belajar-php-composer-library",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yuekunchen",
+            "email": "rosyidiyuekunchen@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "YuekunChen\\Belajar\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=8.0"
+    }
+}
