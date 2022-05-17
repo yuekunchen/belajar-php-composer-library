@@ -10,8 +10,8 @@
       $this->user = $user;
     }
 
-    public function greetUser(string $name): string
+    public function greetUser(string $name = "Guest"): string
     {
-      return "Welcome $name, My name is $this->name";
+      return "Welcome $name, My name is $this->user";
     }
   }
